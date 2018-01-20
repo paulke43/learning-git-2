@@ -1,17 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url("https://fonts.googleapis.com/css?family=Lato");
 
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    line-height: 1.4em;
-    vertical-align: baseline;
-    text-decoration: none;
-    outline: 0;
-    box-sizing: border-box;
-}
-
-$font-size: 20px;
+$font-size: 18px;
 $font-color:rgb(7, 5, 39);
 
 body {
@@ -23,14 +12,16 @@ body {
     background-color: lightsteelblue;
     padding: 20px;
     max-width: 600px;
-    margin: auto;
+    margin: 0 auto;
+    margin-top: 10px;
     border-radius: 4px;
 }
 
 h1 {
     text-align: center;
     text-transform: uppercase;
-    color: navy
+    color: navy;
+    text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
 }
 
 p {
