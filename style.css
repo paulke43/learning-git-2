@@ -9,10 +9,17 @@ body {
   max-width: 600px;
   margin: 0 auto;
   margin-top: 10px;
-  border-radius: 4px;
-  display: flex; }
+  border-radius: 4px;}
 
-h1 {
+.text-box {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 550px;
+  margin: 0 auto;
+  text-align: justify; }
+
+h1,
+h3 {
   text-align: center;
   text-transform: uppercase;
   color: navy;
@@ -22,9 +29,7 @@ p {
   font-size: 18px;
   color: #070527; }
 
-.refren {
-  font-weight: bold; }
-
+.refren,
 .title {
   font-weight: bold; }
 
