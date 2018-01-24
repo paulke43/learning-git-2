@@ -1,10 +1,4 @@
-#node_modules
-node_modules
-
-# sass-cache
-.sass-cache
-
-# logs
+# Logs
 logs
 *.log
 npm-debug.log*
