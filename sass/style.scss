@@ -1,12 +1,11 @@
-@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url('https://fonts.googleapis.com/css?family=Lobster');
 
-$font-size: 18px;
+$font-size: 16px;
 $font-color:rgb(7, 5, 39);
 
 body {
     background-color: indigo;
-    font-family: 'Lato', sans-serif;
-}
+    font-family: 'Lobster', cursive;
 
 .container {
     background-color: lightsteelblue;
@@ -17,7 +16,16 @@ body {
     border-radius: 4px;
 }
 
-h1 {
+.text-box {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 550px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+h1,
+h3 {
     text-align: center;
     text-transform: uppercase;
     color: navy;
@@ -29,10 +37,7 @@ p {
     color: $font-color;
 }
 
-.refren {
-    font-weight: bold;
-}
-
+.refren,
 .title {
-    font-weight: bold;
+    font-weight: bold;}
 }
