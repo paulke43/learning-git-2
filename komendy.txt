@@ -1,1 +1,5 @@
-node_modules/.bin/autoprefixer-cli -o main.prefixed.css style.css node_modules/.bin/nu-html-checker *.html
+Wywołania dla: autoprefixera , nu-html-checkera, bowser-synca i sassa
+node_modules/.bin/autoprefixer-cli -o style.prefixed.css style.css 
+node_modules/.bin/nu-html-checker *.html
+node_modules/.bin/browser-sync start --server --files "css/*.css" "*.html"
+sass --watch sass/style.scss:css/style.css
